@@ -111,3 +111,52 @@
         gap: 20px;
     }
 }
+
+@media(max-width:425px){    
+    .navbar{
+        margin: 20px 3%;
+    }
+    .navbar-logo h1{
+        font-size: 40px;
+    }
+    .navbar-logo h2{
+        left: 50px;
+        font-size: 40px;
+    }
+    .navbar-logo img{
+        width: 150px;
+    }
+    .nav-menu li{
+        font-size: 2.5rem;
+        padding-left: 30px;
+        
+    }
+    .nav-menu li img{
+        width: 5rem;
+    }
+    .nav-mob-close{
+        display: block;
+        position: absolute;
+        right: 2rem;
+    }
+    .nav-mob-open{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 10px;
+    }
+    .navbar ul{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 20rem;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -400px;
+        padding-top: 100px;
+    }
+}

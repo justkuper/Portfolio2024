@@ -145,3 +145,35 @@
         font-size: 16px;
     }
 }
+@media(max-width:425px){
+    .about{
+        gap: 50px;
+        margin: 30px 30px;
+    }
+    .about-title h1{
+        font-size: 40px;
+    }
+    .about-title img{
+        width: 100px;
+        right: -10px;
+    }
+    .about-para{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about-skill p{
+        font-size: 18px;
+    }
+    .about-skill hr{
+        height: 4px;
+    }
+    .about-achievements{
+        gap: 20px;
+    }
+    .about-achievement h1{
+        font-size: 30px;
+    }
+    .about-achievement p{
+        font-size: 14px;
+    }
+}

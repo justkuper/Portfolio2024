@@ -132,3 +132,46 @@
         gap: 20px;
     }
 }
+@media(max-width:425px) {
+    .services {
+        gap: 50px;
+        margin: 20px 30px;
+    }
+
+    .services-title h1 {
+        font-size: 40px;
+    }
+
+    .services-title img {
+        width: 100px;
+        margin-right: -20px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .services-format {
+        gap: 20px;
+        padding: 32px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 300px;
+    }
+
+    .services-readmore img {
+        width: 20px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
