@@ -16,7 +16,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Bar/Restaurant Website",
         w_img:project1_img,
-        deploy:"",
+        deploy:"https://bar-site.onrender.com/",
         link:"https://github.com/justkuper/Bar-Site"
     },
     {
