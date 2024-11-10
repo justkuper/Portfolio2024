@@ -1,4 +1,4 @@
-import project1_img from '../assets/coming_soon.png'
+import project1_img from '../assets/project1.png'
 import project2_img from '../assets/coming_soon.png'
 import project3_img from '../assets/coming_soon.png'
 import project4_img from '../assets/coming_soon.png'
@@ -14,8 +14,10 @@ import project12_img from '../assets/coming_soon.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Task Manager",
-        w_img:project1_img
+        w_name:"Bar/Restaurant Website",
+        w_img:project1_img,
+        deploy:"",
+        link:"https://github.com/justkuper/Bar-Site"
     },
     {
         w_no:2,
