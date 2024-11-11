@@ -1,6 +1,6 @@
 import project1_img from '../assets/project1.png'
-import project2_img from '../assets/coming_soon.png'
-import project3_img from '../assets/coming_soon.png'
+import project2_img from '../assets/project2.png'
+import project3_img from '../assets/project3.png'
 import project4_img from '../assets/coming_soon.png'
 import project5_img from '../assets/coming_soon.png'
 import project6_img from '../assets/coming_soon.png'
@@ -21,13 +21,17 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_name:"John Walz Music",
+        w_img:project2_img,
+        deploy:"https://john-walz.onrender.com/",
+        link:"https://github.com/justkuper/John-Walz"
     },
     {
         w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"Google Clone",
+        w_img:project3_img,
+        deploy:"https://google-clone-568m.onrender.com/",
+        link:"https://github.com/justkuper/google-clone"
     },
     {
         w_no:4,

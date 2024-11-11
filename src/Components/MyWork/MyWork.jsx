@@ -46,9 +46,10 @@ const MyWork = () => {
       <img src={work.w_img} alt={work.w_name}  />
         </a>
       
-        {index === 0 && (
-        <a className="work-link" href={work.link} target="_blank" rel="noopener noreferrer">✍🏽</a>
-      )}    </div>
+        {(index === 0 || index === 1 || index === 2) && (
+  <a className="work-link" href={work.link} target="_blank" rel="noopener noreferrer">✍🏽</a>
+)}
+   </div>
   ))}
 </div>
 
