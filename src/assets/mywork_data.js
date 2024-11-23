@@ -37,7 +37,7 @@ const mywork_data = [
         w_no:4,
         w_name:"Kickstarter Clone",
         w_img:project4_img,
-        deploy:"/",
+        deploy:"https://yc-directory-eight-olive.vercel.app/",
         link:"https://github.com/justkuper/YC_Directory"
     },
     {
