@@ -1,0 +1,39 @@
+.rotating-quote {
+    display: block; /* Default behavior */
+  }
+  
+  @media (max-width: 768px) {
+    /* Hide on small and medium screens */
+    .rotating-quote {
+      display: none;
+    }
+  }
+/* Style the container */
+.quote-container {
+   position: absolute;
+    top: -5rem;
+    width: 60rem;
+    margin: 0 auto;
+  }
+  .quote{
+    font-size: 1.8rem;
+  }
+  
+  /* Style the quotes */
+  .quote-text {
+    color: white;
+    line-height: 1.8;
+  }
+  
+  /* Highlight the author names */
+  .quote-author {
+    font-size: 1.5rem;
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .italicize {
+    font-size: 1rem;
+    font-style: italic;
+  }
