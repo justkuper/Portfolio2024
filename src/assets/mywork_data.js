@@ -2,8 +2,8 @@ import project1_img from '../assets/project1.png'
 import project2_img from '../assets/project22.png'
 import project3_img from '../assets/project3.png'
 import project4_img from '../assets/project4.png'
-import project5_img from '../assets/coming_soon.png'
-import project6_img from '../assets/coming_soon.png'
+import project5_img from '../assets/project5.png'
+import project6_img from '../assets/project6.png'
 import project7_img from '../assets/coming_soon.png'
 import project8_img from '../assets/coming_soon.png'
 import project9_img from '../assets/coming_soon.png'
@@ -42,13 +42,17 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
+        w_name:"Task Manager",
+        w_img:project5_img,
+        deploy:"https://justkuper.github.io/Task_Board/",
+        link:"https://github.com/justkuper/Task_Board"
     },
     {
         w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
+        w_name:"Note Taker",
+        w_img:project6_img,
+        deploy:"https://note-taker-wkap.onrender.com/",
+        link:"https://github.com/justkuper/note_taker"
     },
     {
         w_no:7,

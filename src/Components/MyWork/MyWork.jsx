@@ -46,7 +46,7 @@ const MyWork = () => {
       <img src={work.w_img} alt={work.w_name}  />
         </a>
       
-        {(index <= 3) && (
+        {(index <= 5) && (
   <a className="work-link" href={work.link} target="_blank" rel="noopener noreferrer">✍🏽</a>
 )}
    </div>
