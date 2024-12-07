@@ -1,6 +1,6 @@
 import project1_img from '../assets/project1.png'
 import project2_img from '../assets/project22.png'
-import project3_img from '../assets/project3.png'
+import project3_img from '../assets/project8.png'
 import project4_img from '../assets/project4.png'
 import project5_img from '../assets/project5.png'
 import project6_img from '../assets/project6.png'
@@ -28,10 +28,10 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_name:"Google Clone",
+        w_name:"Inventory Management",
         w_img:project3_img,
-        deploy:"https://google-clone-27r0vlikg-justkupers-projects.vercel.app/sign-up",
-        link:"https://github.com/justkuper/google-clone"
+        deploy:"https://main.d2k64lffsnd8j6.amplifyapp.com",
+        link:"https://github.com/justkuper/inventory-mgmt"
     },
     {
         w_no:4,

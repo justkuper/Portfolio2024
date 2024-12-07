@@ -22,9 +22,9 @@ const RotatingQuote = () => {
   }, [quotes.length]);
 
   return (
-    <div className="quote-container rotating-quote">
+    <div className="quote-container">
       <p
-        className="quote-text"
+        className="quote-text rotating-quote"
         dangerouslySetInnerHTML={{ __html: quotes[currentQuoteIndex] }}
       />
     </div>

@@ -40,18 +40,21 @@ const MyWork = () => {
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="mywork-container">
-  {displayedProjects.map((work, index) => (
-    <div key={index} className="work-item">
-        <a href={work.deploy} target="_blank" rel="noopener noreferrer">
-      <img src={work.w_img} alt={work.w_name}  />
-        </a>
-      
-        {(index <= 5) && (
-  <a className="work-link" href={work.link} target="_blank" rel="noopener noreferrer">✍🏽</a>
-)}
-   </div>
-  ))}
-</div>
+                {displayedProjects.map((work, index) => (
+                    <div
+                    key={index}
+                    className={`work-item ${index === 2 ? 'custom-border' : ''}`} // Add custom-border class to 3rd item
+                >
+                    <a href={work.deploy} target="_blank" rel="noopener noreferrer">
+                        <img src={work.w_img} alt={work.w_name} />
+                    </a>
+        
+                    {(index <= 5) && (
+                        <a className="work-link" href={work.link} target="_blank" rel="noopener noreferrer">✍🏽</a>
+                    )}
+                </div>
+                ))}
+            </div>
 
 
             <div className="mywork-showmore" onClick={handleShowMoreClick}>

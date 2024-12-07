@@ -125,6 +125,10 @@
         width: 1rem;
         font-size: 2rem;
     }
+    .custom-border {
+        border: 5px solid #ffcc00; /* Customize the border style (yellow in this case) */
+        padding: 10px;
+    }
 }
 @media(max-width: 425px){
     .mywork-title h1{

@@ -2,6 +2,7 @@
     display: block; /* Default behavior */
   }
   
+  
   @media (max-width: 768px) {
     /* Hide on small and medium screens */
     .rotating-quote {
@@ -36,4 +37,11 @@
   .italicize {
     font-size: 1rem;
     font-style: italic;
+  }
+  @media (max-width: 1026px) {
+    /* Hide on small and medium screens */
+    .hero-overlay {
+      display: none;
+    }
+    
   }
