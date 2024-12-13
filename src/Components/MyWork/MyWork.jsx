@@ -43,7 +43,7 @@ const MyWork = () => {
                 {displayedProjects.map((work, index) => (
                     <div
                     key={index}
-                    className={`work-item ${index === 2 ? 'custom-border' : ''}`} // Add custom-border class to 3rd item
+                    className={`work-item`} // Add custom-border class to 3rd item
                 >
                     <a href={work.deploy} target="_blank" rel="noopener noreferrer">
                         <img src={work.w_img} alt={work.w_name} />
